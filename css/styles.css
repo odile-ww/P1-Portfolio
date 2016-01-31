@@ -1,0 +1,149 @@
+/* Global */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+	font-family: 'Lato', sans-serif;
+	color:#747704;
+	font-weight: 300;
+    font-size: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+span {
+    margin-right: 20px;
+    min-width: 48px;
+}
+
+/* Main sections */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+    max-width: 1200px;
+}
+
+.row {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.header {
+    max-height: 100px;
+    margin-top: 0;
+    border-bottom: solid 0.1em #bcbbbb;
+}
+
+.banner {
+    max-height: 400px;
+}
+
+.footer {
+    border-top: solid 0.1em#bcbbbb;
+    padding-top: 0.8em;
+}
+
+/* Individual elements */
+
+.title-logo {
+    height: 90px;
+    padding-bottom: 0.5em;
+}
+
+.title-super {
+	font-size: 3.6em;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom:0;
+    vertical-align: bottom;
+}
+
+.text-muted {
+	color:#bcbbbb;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.section-item a {
+  text-decoration: none;
+  color:#bcbbbb;
+  padding: 0.5em;
+}
+
+.section-item a:hover {
+  text-decoration: underline;
+  color:#747704;
+}
+
+.credit, .social-icons {
+    font-style: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa {
+    color:#bcbbbb;
+}
+
+.fa:hover{
+    color:#f8981c;
+}
+
+.validator-css {
+    border:0;
+    width:88px;
+    height:31px;
+}
+
+/* Media query: keeps text legible on small screens */
+
+@media screen and (max-width:550px) {
+    .title-super {
+        font-size: 22px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .text-thin {
+	font-weight: 300;
+    }
+}

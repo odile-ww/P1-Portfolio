@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV: Portfolio</title>
+
+    <!-- Import Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet'>
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--JQuery-->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!--Page Header -->
+      <header>
+        <div class="row header">
+            <div class="col-md-6 col-xs-4">
+              <img class="title-logo img-responsive" src="img/hedgehog-1158775.svg" alt="hedgehog logo">
+		    </div>
+		    <div class="col-md-6 col-xs-8 text-right text-uppercase">
+		      <h1 class="title-super text-thin">Silvia Velicu</h1>
+		      <h4 class="title text-right text-uppercase">Front-end Ninja Wannabe</h4>
+            </div>
+        </div>
+      </header>
+
+      <!--Section for the cover image -->
+      <div class="row banner">
+        <div class="col-md-12">
+          <picture id="banner-image" class="cover">
+            <source media="(min-width: 750px)" srcset="img/coding-924920_1280_01.jpg">
+            <source media="(min-width: 500px)" srcset="img/coding-924920_640.jpg">
+            <img src="img/coding-924920_640.jpg" alt="cover image man coding">
+          </picture>
+	    </div>
+      </div>
+
+      <!--Featured Work Section -->
+      <section>
+
+	    <div class="row">
+	      <div class="col-md-12">
+		    <h2 class="text-muted">Featured Work</h2>
+		  </div>
+        </div>
+
+	    <div class="row">
+	      <div class="col-md-4 text-center section-item">
+		    <img src="img/man-791049_640.jpg" class="img-responsive" alt="man using app on a tablet and drinking coffee" data-toggle="modal" data-target="#project1">
+		    <h3 class="text-uppercase">My Library</h3>
+		    <p><a href="http://github.com">Link to project</a></p>
+		  </div>
+		  <div class="col-md-4 text-center section-item">
+		    <img src="img/grid-1093915_640.jpg" class="img-responsive" alt="laser grid" data-toggle="modal" data-target="#project2">
+		    <h3 class="text-uppercase">Relaxing Waves</h3>
+		    <p><a href="http://github.com">Link to project</a></p>
+		  </div>
+          <div class="col-md-4 text-center section-item" >
+		    <img src="img/desk-1082044_640.jpg" class="img-responsive" alt="organizer and mobile on a desk" data-toggle="modal" data-target="#project3">
+		    <h3 class="text-uppercase">Task Hero</h3>
+		    <p><a href="https://github.com/odile-ww/">Link to project</a></p>
+		  </div>
+	    </div>
+      </section>
+
+      <!--Page Footer -->
+      <footer>
+        <div class="row footer">
+          <div class="col-md-12 text-center social-icons">
+            <a href="https://github.com/odile-ww/"><span class="fa fa-git fa-3x"></span></a>
+            <a href="https://bg.linkedin.com/in/silviavelicu"><span class="fa fa-linkedin-square fa-3x"></span></a>
+            <a href="https://www.facebook.com/silvia.velicu"><span class="fa fa-facebook-square fa-3x"></span></a>
+          </div>
+          <hr>
+          <div class="col-md-12 text-center credit"><p>Pictures credit: <a href="https://pixabay.com/">Pixabay.com</a></p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!--end of container -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+      <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+		    <h4 class="modal-title" id="project1Label">My Library</h4>
+		  </div>
+		  <div class="modal-body">
+		    <img class="img-responsive" src="img/man-791049_640.jpg" alt="man using app on a tablet and drinking coffee">
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+		  </div>
+		  <div class="modal-footer">
+		    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+	    </div>
+	  </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+      <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+		    <h4 class="modal-title" id="project2Label">Relaxing Waves</h4>
+		  </div>
+		  <div class="modal-body">
+		    <img class="img-responsive" src="img/grid-1093915_640.jpg" alt="laser grid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, risus sit amet commodo placerat, libero metus bibendum lectus, a pharetra velit dui eu sem. Donec rutrum quam feugiat, placerat.</p>
+		  </div>
+		  <div class="modal-footer">
+		    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+	    </div>
+	  </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+      <div class="modal-dialog">
+	    <div class="modal-content">
+          <div class="modal-header">
+		    <h4 class="modal-title" id="project3Label">Task Hero</h4>
+		  </div>
+		  <div class="modal-body">
+		    <img class="img-responsive" src="img/desk-1082044_640.jpg" alt="organizer and mobile on a desk">
+            <p>Nunc condimentum eros id nisl tincidunt hendrerit. In bibendum tortor dui, sit amet commodo urna efficitur et. Aenean quis cursus augue. Donec rhoncus mauris quis iaculis gravida. Aliquam suscipit dictum magna, at rhoncus quam porttitor ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc.</p>
+		  </div>
+		  <div class="modal-footer">
+		    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+        </div>
+	  </div>
+    </div><!--end of modal -->
+
+  </body>
+</html>
